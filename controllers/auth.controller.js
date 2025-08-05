@@ -48,7 +48,7 @@ try {
 
 }  catch(error) {
     await session.abortTransaction();
-    session.sendSession();
+    
     next(error);
 
 }
