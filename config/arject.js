@@ -8,7 +8,7 @@ const aj = arcjet({
     key: ARCJET_KEY,
     log: console, 
     client: arcjet.client,
-    characteristics: ["ip.src"], // Track requests by IP
+    characteristics: ["ip.src"], // Track requests by IP 
     rules: [
       // Shield protects your app from common attacks e.g. SQL injection
       shield({ mode: "LIVE" }),
